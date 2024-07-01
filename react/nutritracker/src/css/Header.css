@@ -1,0 +1,51 @@
+/* Header.css */
+
+.navbar-custom {
+    background-color: #28a745; /* Green background */
+    border-bottom: 2px solid #218838; /* Darker green border bottom */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand-custom {
+    color: white; /* White text color for brand */
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link-custom,
+.dropdown-item-custom {
+    color: white; /* White text color for links */
+    font-size: 1.1rem;
+    padding: 10px 15px;
+}
+
+.nav-link-custom:hover,
+.dropdown-item-custom:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.nav-dropdown-custom {
+    background-color: #28a745; /* Green background for dropdown */
+    border: none;
+}
+
+.nav-dropdown-custom .dropdown-item-custom {
+    color: black; /* White text color for dropdown items */
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+@media (max-width: 768px) {
+    .navbar-custom {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .nav-link-custom,
+    .dropdown-item-custom {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+}
